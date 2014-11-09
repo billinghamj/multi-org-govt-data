@@ -16,5 +16,5 @@ get '/nao/reports' do
 end
 
 get '/nao/reports/:id' do
-  erb :nao_reports_show
+  erb :nao_report_show
 end
